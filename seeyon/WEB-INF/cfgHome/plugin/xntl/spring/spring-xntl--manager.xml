@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans default-autowire="byName">
-	<bean name="/gwjk.do" class="com.seeyon.apps.gwjk.controller.GwjkController" />
+	<bean id="xntlManager" class="com.seeyon.apps.xntl.manager.XntlManagerImpl" />
 </beans>
