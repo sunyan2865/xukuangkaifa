@@ -34,21 +34,22 @@
             padding: 7px 15px;
             border: 1px solid #d4d4d4;
         }
+
+
     </style>
 </head>
 <body class="h100b" onunload="">
-<div id='layout'>
-    <div class="layout_north f0f0f0" id="north">
-        <div style="padding-left:30px;margin:20px;">
-            <input id="searchId"  data-v-1632dfc7="" type="text" placeholder="搜索关键字" class="input cap4-condition-flex-a"/>
+<div id='layout' >
+    <div  class="layout_north f0f0f0" id="north">
+        <div style="padding-left:15px;margin:20px;text-align:center">
+            <input id="searchId" style="height:36px;width:300px;font-size:13px" data-v-1632dfc7="" type="text" placeholder="搜索关键字" class="input cap4-condition-flex-a"/>
             <button id="sxBtn" class="buttonStyle buttonSx">搜索</button>
             <button id="reset" class="buttonStyle buttonReset">重置</button>
           <%--  <span id="spanId"  style="padding-left:30px;color:green">暂无数据</span>--%>
         </div>
     </div>
-    <div class="layout_center over_hidden" id="center">
+    <div style="background-color: #edeadf" class="layout_center over_hidden" id="center">
         <table  class="flexme3" id="listStudent"></table>
-
     </div>
 </div>
 

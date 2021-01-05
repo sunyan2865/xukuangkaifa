@@ -7,7 +7,7 @@ $(document).ready(function () {
         'id': 'layout',
         'northArea': {
             'id': 'north',
-            'height': 60,
+            'height': 67,
             'sprit': false,
             'border': false
         },
@@ -82,6 +82,7 @@ $(document).ready(function () {
         //usepager : false
     });
 
+
 });
 
 
@@ -90,7 +91,7 @@ function rend(txt, data, r, c) {
     if(null==txt || txt=="null"){
         txt="";
     }/*else{
-        txt="<span  class='v-td-content' style='font-size:16px'>"+txt+"</span>";
+        txt="<span  style='background-color:#edeadf'>"+txt+"</span>";
     }*/
     return txt;
 }
